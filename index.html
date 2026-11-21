@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javier Chacón | Junior Data Scientist</title>
+    <meta name="description" content="Portfolio de Javier Chacón, Junior Data Scientist especializado en Machine Learning, Python, SQL y despliegue de modelos en producción con FastAPI y Docker.">
+    <meta name="author" content="Javier Chacón">
+
+    <!-- Open Graph / LinkedIn / WhatsApp / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lionsew.github.io/">
+    <meta property="og:title" content="Javier Chacón | Junior Data Scientist & ML">
+    <meta property="og:description" content="Explora mis proyectos de Machine Learning y despliegue de modelos en producción. Python, Scikit-Learn, SQL, FastAPI y Docker.">
+    <meta property="og:image" content="https://lionsew.github.io/assets/og-preview.png">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://lionsew.github.io/">
+    <meta name="twitter:title" content="Javier Chacón | Junior Data Scientist & ML">
+    <meta name="twitter:description" content="Explora mis proyectos de Machine Learning y despliegue de modelos en producción. Python, Scikit-Learn, SQL, FastAPI y Docker.">
+    <meta name="twitter:image" content="https://lionsew.github.io/assets/og-preview.png">
+    <title>Javier Chacón | Junior Data Scientist</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
@@ -342,7 +360,7 @@
             tempInput.value = email;
             document.body.appendChild(tempInput);
             tempInput.select();
-            document.execCommand('copy');
+            navigator.clipboard.writeText('chaconperezjavier@gmail.com');
             document.body.removeChild(tempInput);
 
             copyText.textContent = '¡Copiado!';
